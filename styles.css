@@ -88,15 +88,27 @@ body {
   font-size: 14px;
   color: #727886;
   list-style: none;
+  cursor: pointer;
+  overflow: auto;
 }
-#trashBin {
-  display: flex;
-  align-self: flex-end;
-  font: size 15px;
-  color: #ff007a;
+
+#check {
+  display: flexbox;
+  flex-direction: row;
+  align-self: center;
+  width: 15px;
+  height: 15px;
+  padding-right: 10px;
 }
-#checkMark {
-  color: #0fd676;
-  font-size: 15px;
-  font-weight: bold;
+
+#trash {
+  display: flexbox;
+  flex-direction: row;
+  align-self: center;
+  flex: 1;
+  float: right;
+  width: 15px;
+  height: 15px;
+  position: fixed;
+  right: 520px;
 }
